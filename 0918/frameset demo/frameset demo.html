@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>frameset demo</title>
+</head>
+
+<frameset rows=="100,*"  />
+<!-- top -->
+	<frame src="top.html" noresize="noresize" />
+	<frameset cols="25%,*"  >
+	<!-- left -->
+		<frame src="left.html" noresize="noresize"/>
+		<!-- right -->
+		<frame src="right.html" name="1" />
+	</frameset>
+</frameset>
+
+</html>
