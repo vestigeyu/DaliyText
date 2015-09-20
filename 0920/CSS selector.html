@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css selector text</title>
+	<style type="text/css">
+		div>span {
+			color:red;
+		}
+		div+p {
+			color:blue;
+		}
+		div[name] {
+			border: 2px solid grey;
+		}
+	</style>
+</head>
+<body>
+	<div><span>我是div标签中的span标签。</span></div>
+	<div>
+		<p>我是div标签中的P标签</p>
+		<span>我是div中的span标签</span>
+	</div>
+	<p>我是P标签</p>
+	<div name="text">我是第3个div标签</div>
+	<div></div>
+	<div></div>
+</body>
+</html>
