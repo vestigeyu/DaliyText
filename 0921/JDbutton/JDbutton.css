@@ -1,0 +1,36 @@
+		.tuan800 {
+			font-size: 14px;
+			font-weight: 400px;
+			padding:0px;
+			margin:0px;
+			display:block;
+			float:left;
+			/*border:1px solid red;*/
+			width:70px;
+			height:40px;
+			/*margin:0 auto;*/
+			text-align:center;
+			background:#188590;
+			line-height:40px;
+			text-decoration:none;
+			color:white;
+		}
+		.shenbian {
+			width:95px;
+		}
+		.small {
+			font-size:12px;
+			width:43px;
+		}
+		a:hover {
+			background:url(); 
+			background: #37A6B0;
+		}
+		a.small:hover {
+			background:#188590;
+			text-decoration:underline;
+		}
+/*		.border {
+			border-style:none outset none none;
+		}
+*/
