@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	color: #808080;
+	font-family: 宋体;
+}
+
+a {
+	text-decoration: none;
+	/*display: block;*/
+}
+
+li {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+/*顶部菜单开始*/
+#top_meun {
+	width: 100%;
+	height: 34px;
+	background: url(../imags/top_meun.gif) repeat-x;
+}
+
+#top_meun .meun_1 {
+	width: 1200px;
+	height: 31px;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+
+}
+
+/*顶部菜单left开始*/
+#top_meun .meun_left {
+	height: 31px;
+	float: left;
+	/*border-right: 1px solid blue;*/
+}
+#top_meun .meun_left .hi {
+	line-height: 32px;
+	float: left;
+	padding-right: 11px;
+}
+
+#top_meun .meun_left .zhuce {
+	line-height: 32px;
+	float: left;
+	padding-right: 14px;
+}
+
+#top_meun .meun_left .mine {
+	display: block;
+	line-height: 32px;
+	float: left;
+	padding-right: 15px;
+}
+
+#top_meun .meun_left .mine:hover {
+	color: rgb(169,0,0);
+}
+/*顶部菜单left结束*/
+
+/*顶部菜单right开始*/
+#top_meun .meun_right {
+	line-height: 31px;
+	float: right;
+}
+#top_meun .meun_right .mine_1 {
+	float: left;
+	width: 62px;
+	height: 31px;
+	background: url(../imags/vanclsprite.png) no-repeat 53px 10px;
+	padding-right: 16px;
+}
+#top_meun .meun_right a:hover{
+	color: rgb(160,0,0);
+}
+
+#top_meun .meun_right .mine_2 {
+	float: left;
+	width: 62px;
+	height: 31px;
+	background: url(../imags/vanclsprite.png) no-repeat 53px -20px;
+	padding-right: 16px;
+}
+
+#top_meun .meun_right .mine_3 {
+	float: left;
+	width: 62px;
+	height: 31px;
+	background: url(../imags/mine_3.png) no-repeat 53px 8px;
+	padding-right: 17px;
+}
+
+#top_meun .meun_right .mine_4 {
+	float: left;
+	width: 18px;
+	height: 31px;
+	background: url(../imags/weixin.jpg) no-repeat 0px 7px;
+	padding-right: 2px;	
+}
+
+#top_meun .meun_right .mine_5 {
+	float: left;
+	width: 18px;
+	height: 31px;
+	background: url(../imags/weibo.jpg) no-repeat 0px 7px;;
+}
+
+/*顶部菜单right结束*/
+/*顶部菜单结束*/
+
+/*顶部广告图开始*/
+#top_box {
+	width: 100%;
+	height: 50px;
+	background: #e11629;
+}
+
+#top_box .top_pic {
+	display: block;
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+/*顶部广告图结束*/
+
+/*logo+搜索区开始*/
+#l_s {
+	width: 1200px;
+	height: 92px;
+	margin: 0 auto;
+	/*border: 1px solid blue;
+	border-top: none;*/
+	position: relative;
+}
+
+#l_s .logo {
+	width: 166px;
+	height: 48px;
+	background: url(../imags/vanclsprite.png) no-repeat 0px -59px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 20px;
+	left: 33px;
+}
+
+#l_s .search {
+	position: absolute;
+	top: 28px;
+	left: 641px;
+}
+
+#l_s .search .text {
+	width: 389px;
+	height: 27px;
+	border: 1px solid #c9caca;
+	text-indent: 5px;
+	float: left;
+}
+
+#l_s .search .button_1 {
+	width: 49px;
+	height: 29px;
+	background: url(../imags/vanclsprite.png) no-repeat -99px 0px;
+	float: left;
+}
+
+#l_s .shop_car .button_2 {
+	width: 107px;
+	height: 29px;
+	background: url(../imags/vanclsprite.png) no-repeat -153px 0px;
+	color: white;
+	border: 1px solid #c1383e;
+	padding-top: 0px;
+	padding-left: 13px; 
+	font-size: 12px;
+
+}
+
+#l_s .shop_car {
+	position: absolute;
+	top: 28px;
+	right: 0px;
+}
+
+#l_s .tags {
+	position: absolute;
+	top: 65px;
+	left: 664px;
+}
+
+#l_s .tags .hot {
+	/*height: 30px;*/
+	/*width: 100px;*/
+	float: left;
+	/*border: 1px solid red;*/
+	padding-right: 10px; 
+}
+/*logo+搜索区结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
