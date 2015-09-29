@@ -269,7 +269,7 @@ input {
 }
 
 #mid_show #show_meun {
-	width: 258px;
+	width: 260px;
 	height: 490px;
 	float: left;
 	/*border: 1px solid #c8c8c9;*/
@@ -277,61 +277,136 @@ input {
 }
 
 #mid_show #show_meun .meun_top {
-	width: 258px;
-	height: 257px;
+	width: 260px;
+	height: 260px;
 	border: 1px solid #c8c8c9;
 	position: absolute;
 	top: 17px;
 	left: 0px;
 }
 
-#mid_show #show_meun .meun_top .top_1 {
-	width: 258px;
+#mid_show #show_meun .top_1 {
+	width: 260px;
 	height: 71px;
 	border-bottom: 1px solid #c8c8c9;
+	position: relative;
 }
 
-#mid_show .meun_top .top_1 .word_1 {
+#mid_show .top_1 .word_1 {
 	font-size: 14px;
 	color: rgb(184,28,34);
 	/*border: 1px solid blue;*/ 
 	display: block;
-	padding: 0px 1px;
+	padding: 0px 3px;
 	position: absolute;
-	top: -7px;
-	left: 39px;
+	top: -10px;
+	left: 36px;
 	background: white;
 }
-#mid_show .meun_top .top_1 .word_2{
+#mid_show .top_1 .word_2{
 	font-family: 微软雅黑;
 	font-size: 14px;
 	color: rgb(163,162,162);
 	position: absolute;
-	top: 23px;
+	top: 20px;
+	left: 36px;
+	line-height: 16px;
+}
+
+#mid_show .top_1 p {
+	position: absolute;
+	top: 46px;
 	left: 36px;
 }
 
-#mid_show .meun_top .top_1 p {
-	position: absolute;
-	top: 45px;
-	left: 35px;
-}
-
-#mid_show .meun_top .top_1 a {
+#mid_show .top_1 a {
 	display: block;
 	float: left;
+	line-height: 20px;
 	padding: 0px 5px;
 	margin-right: 2px; 
 }
 
-#mid_show .meun_top .top_1 .word_3 {
+#mid_show .top_1 .word_3 {
 	color: rgb(184,28,34);
 }
 
-#mid_show .meun_top .top_1 .word_4:hover {
+#mid_show .top_1 .word_4:hover {
 	color: rgb(184,28,34);
 	background: #e5e6e6;
 }
+
+#mid_show .top_2 {
+	width: 258px;
+	height: 62px;
+	border-bottom: 1px solid #c8c8c9;
+	position: relative;
+}
+
+#mid_show .top_2 a {
+	display: block;
+	float: left;
+	line-height: 20px;
+	padding: 0px 5px;
+	margin-right: 2px; 
+}
+
+#mid_show .top_2 .word_1 {
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: rgb(163,162,162);
+	position: absolute;
+	top: 13px;
+	left: 35px;
+	line-height: 16px;
+}
+
+#mid_show .top_2 .word_2 {
+	color: rgb(184,28,34);
+}
+
+#mid_show .top_2 .word_3:hover {
+	color: rgb(184,28,34);
+	background: #e5e6e6;
+}
+
+#mid_show .top_2 p {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+}
+
+#mid_show .meun_mid {
+	width: 260px;
+	height: 134px;
+	border: 1px solid #c8c8c9;
+	position: absolute;
+	top: 293px;
+	left: 0px;
+}
+
+#mid_show .meun_buttom {
+	width: 260px;
+	height: 47px;
+	border: 1px solid #c8c8c9;
+	position: absolute;
+	top: 445px;
+	left: 0px;
+}
+
+#mid_show .meun_buttom .top_3 {
+	position: absolute;
+	top: 20px;
+	left: 36px;
+}
+
+#mid_show #pic {
+	position: absolute;
+	top: 17px;
+	left: 270px;
+}
+
+
 
 /*中部展示区域结束*/
 
