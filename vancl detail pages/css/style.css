@@ -144,7 +144,7 @@ input {
 	height: 92px;
 	position: relative;
 	margin: 0 auto;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 }
 
 #LogoSearch #logo {
@@ -229,6 +229,62 @@ input {
 }
 
 /*logo + search 区域结束*/
+
+/*上部菜单区域*/
+#shang_meun {
+	width: 1200px;
+	height: 49px;
+	margin: 0 auto;
+	/*border: 1px solid orange;*/
+}
+
+#shang_meun #shang_meun_left {
+	width: 260px;
+	height: 49px;
+	float: left;
+	background: #b81c22;
+	font-family: 微软雅黑;
+	font-size: 17px;
+	line-height: 49px;
+	color: white;
+	text-indent: 54px;
+	/*background: #b81c22 url(../images/vanclsprite.png) no-repeat -168px -186px;*/
+	position: relative;
+}
+
+#shang_meun #shang_meun_left #shang_meun_left_1 {
+	width: 20px;
+	height: 14px;
+	position: absolute;
+	top: 17px;
+	left: 212px;
+	background: url(../images/vanclsprite.png) no-repeat -380px -206px;
+}
+
+#shang_meun #shang_meun_right {
+	width: 940px;
+	height: 49px;
+	float: left;
+	/*border: 1px solid red;*/
+	background: #efefef;
+}
+
+#shang_meun #shang_meun_right .shang_meun_1 {
+	width: 117.5px;
+	height: 49px;
+	float: left;
+	text-align: center;
+	line-height: 49px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: rgb(114,113,113);
+}
+
+#shang_meun #shang_meun_right .shang_meun_1:hover {
+	color: #B81C22;
+	background: #E5E6E6;
+}
+/*上部菜单区域结束*/
 
 
 
