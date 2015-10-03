@@ -149,7 +149,7 @@ h1,h2,h3,h4,h5,h6 {
 #l_s .logo {
 	width: 166px;
 	height: 48px;
-	background: url(../imags/vanclsprite.png) no-repeat 0px -59px;
+	background: url(../imags/vanclsprite_1.png) no-repeat 0px -59px;
 	/*border: 1px solid red;*/
 	position: absolute;
 	top: 20px;
@@ -173,14 +173,14 @@ h1,h2,h3,h4,h5,h6 {
 #l_s .search .button_1 {
 	width: 49px;
 	height: 29px;
-	background: url(../imags/vanclsprite.png) no-repeat -99px 0px;
+	background: url(../imags/vanclsprite_1.png) no-repeat -99px 0px;
 	float: left;
 }
 
 #l_s .shop_car .button_2 {
 	width: 107px;
 	height: 29px;
-	background: url(../imags/vanclsprite.png) no-repeat -153px 0px;
+	background: url(../imags/vanclsprite_1.png) no-repeat -153px 0px;
 	color: white;
 	border: 1px solid #c1383e;
 	padding-top: 0px;
