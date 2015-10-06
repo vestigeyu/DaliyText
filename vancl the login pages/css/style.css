@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: 微软雅黑,SimSun;
+}
+
+input {
+	border: none;
+	font-weight: 100;
+	font-size: 12px;
+	color: rgb(0,0,0);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo {
+	width: 980px;
+	height: 64px;
+	/*border: 1px solid orange;*/
+	margin: 0 auto;
+}
+
+#logo #logo_pic {
+	padding-top: 20px;
+}
+
+#login {
+	width: 978px;
+	height: 528px;
+	border: 1px solid #c3c3c3;
+	margin: 0 auto;
+}
+
+#login #zcxyh {
+	width: 978px;
+	height: 27px;
+	background: url(../images/vancl_2.gif) repeat-x;
+	border-bottom: 1px solid #c3c3c3;
+	font-size: 14px;
+	color: rgb(0,0,0);
+	text-indent: 10px;
+	line-height: 27px;
+	font-family: 微软雅黑,SimSun;
+	font-weight: 400;
+}
+
+#login #login_form {
+	width: 766px;
+	height: 500px;
+	border-right: 1px solid #c3c3c3;
+	float: left;
+}
+
+#login #login_form #login_way {
+	width: 682px;
+	height: 95px;
+	border-bottom: 1px dotted #999;
+	margin: 0 auto;
+}
+
+#login #login_form #login_way .login_title {
+	width: 135px;
+	height: 45px;
+	background: url(../images/tag_1.gif) no-repeat 0px 11px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 41px;
+	color: rgb(101,101,101);
+	line-height: 45px;
+	text-indent: 32px;
+	margin-left: 10px; 
+}
+
+#login #login_form #login_way .email {
+	width: 135px;
+	height: 45px;
+	background: url(../images/tag_bg.gif) no-repeat 0px -45px;
+	float: left;
+	margin-top: 42px;
+	line-height: 45px;
+	font-size: 12px;
+	text-indent: 39px;
+	color: rgb(0,0,0);
+	font-weight: 100;
+}
+
+#login #login_form #login_way .moblie {
+	width: 135px;
+	height: 45px;
+	background: url(../images/tag_bg.gif) no-repeat -144px -45px;
+	float: left;
+	margin-top: 42px;
+	line-height: 45px;
+	font-size: 12px;
+	text-indent: 39px;
+	color: rgb(0,0,0);
+	font-weight: 100;
+	margin-left: 10px;
+}
+
+#login #login_form #login_way .moblie:hover {
+	background: url(../images/tag_bg.gif) no-repeat -144px 0px;
+}
+
+#login #login_form #form_message {
+	width: 682px;
+	height: 404px;
+	margin: 0 auto;
+}
+
+#login #login_form #form_message .message_title {
+	width: 130px;
+	height: 45px;
+	background: url(../images/tag_2.gif) no-repeat 0px 10px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 22px;
+	color: rgb(101,101,101);
+	line-height: 45px;
+	text-indent: 32px;
+	margin-left: 10px; 
+}
+
+#login #login_form #form_message #email_message {
+	width: 535px;
+	height: 342px;
+	/*border: 1px solid orange;*/
+	float: left;
+	margin-top: 23px;
+}
+
+#login #login_form #form_message #email_message .email_1 {
+	width: 533px;
+	height: 58px;
+	background: white;
+	border: 1px solid white;
+	margin-bottom: 5px;
+}
+
+#login #login_form #form_message #email_message .email_1:hover {
+	width: 533px;
+	height: 58px;
+	background: #fafafa;
+	border: 1px solid #f2f2f2;
+}
+
+#login #login_form #form_message #email_message .message {
+	width: 100px;
+	height: 22px;
+	float: left;
+	text-align: right;
+	line-height: 22px;
+	font-weight: 100;
+	color: rgb(0,0,0);
+	margin-top: 6px;
+	font-size: 12px;
+	font-family: 微软雅黑,SimSun;
+}
+
+#login #login_form #form_message #email_message #text {
+	width: 198px;
+	height: 20px;
+	border: 1px solid #a5afc3;
+	margin-top: 6px;
+}
+
+#login #login_form #form_message #email_message #password {
+	width: 198px;
+	height: 20px;
+	border: 1px solid #a5afc3;
+	margin-top: 6px;
+}
+
+#login #login_form #form_message #email_message #password_again {
+	width: 198px;
+	height: 20px;
+	border: 1px solid #a5afc3;
+	margin-top: 6px;
+}
+
+#login #login_form #form_message #email_message .AuthCode {
+	width: 533px;
+	height: 85px;
+	background: white;
+	border: 1px solid white;
+	margin-bottom: 5px;
+}
+
+#login #login_form #form_message #email_message .AuthCode:hover {
+	width: 533px;
+	height: 85px;
+	background: #fafafa;
+	border: 1px solid #f2f2f2;
+}
+
+#login #login_form #form_message #email_message .message_1 {
+	width: 100px;
+	height: 22px;
+	float: left;
+	text-align: right;
+	line-height: 22px;
+	font-weight: 100;
+	color: rgb(0,0,0);
+	margin-top: 21px;
+	font-size: 12px;
+	font-family: 微软雅黑,SimSun;
+}
+
+#login #login_form #form_message #email_message #auth {
+	width: 48px;
+	height: 20px;
+	border: 1px solid #a5afc3;
+	margin-top: 21px;
+	float: left;
+}
+
+#login #login_form #form_message #email_message #yzm {
+	float: left;
+	padding-left: 8px;
+	margin-top: 5px;
+}
+
+#login #login_form #form_message #email_message #word_1 {
+	width: 50px;
+	height: 14px;
+	float: left;
+	margin-top: 32px;
+	font-weight: 100;
+	color: rgb(128,128,128);
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 6px;
+}
+
+#login #login_form #form_message #email_message #word_2 {
+	font-weight: 100;
+	color: rgb(106,0,2);
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#login #login_form #form_message #email_message #word_2:hover {
+	text-decoration: underline;
+}
+
+#login #login_form #form_message #email_message #clause {
+	width: 533px;
+	height: 67px;
+	background: white;
+	border: 1px solid white;
+	margin-bottom: 10px;
+}
+
+#login #login_form #form_message #email_message #clause:hover {
+	width: 533px;
+	height: 67px;
+	background: #fafafa;
+	border: 1px solid #f2f2f2;
+}
+
+#login #login_form #form_message #email_message #word_3 {
+	height: 14px;
+	margin-top: 9px;
+	padding-left: 99px;
+	font-weight: 100;
+	color: rgb(128,128,128);
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#login #login_form #form_message #email_message #word_4 {
+	font-weight: 100;
+	color: rgb(106,0,2);
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#login #login_form #form_message #email_message #word_4:hover {
+	text-decoration: underline;
+}
+
+#login #login_form #form_message #email_message #clause #agree {
+	width: 127px;
+	height: 27px;
+	margin-left: 99px;
+	margin-top: 11px;
+	background: url(../images/bt_bg.jpg) no-repeat;
+	color: white;
+	line-height: 27px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#login #login_form #form_message #email_message #clause #agree:hover{
+	text-decoration: underline;
+}
+
+#login #login_dl {
+	width: 211px;
+	height: 500px;
+	background: #f9f9f9;
+	float: left;
+
+}
+
+#login #login_dl #l_dl {
+	padding-left: 19px;
+	padding-top: 130px;
+}
+
+#login #login_dl #dl_1 {
+	font-weight: 100;
+	font-size: 12px;
+	color: rgb(0,0,0);
+	float: left;
+	
+}
+
+#login #login_dl #dl_2 {
+	width: 61px;
+	height: 19px;
+	background: url(../images/bt2_bg.jpg) no-repeat;
+	font-weight: 100;
+	font-size: 12px;
+	color: rgb(0,0,0);
+	float: left;
+	text-align: center;
+	line-height: 19px;
+	margin-left: 2px;
+}
+
+/*底部声明开始*/
+#bottom_box_3 {
+	width: 100%;
+	height: 114px;
+	float: left;
+}
+
+#bottom_1 {
+	width: 1200px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.bottom_word {
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 15px;
+	text-align: center;
+	color: rgb(151,151,151);
+}
+
+.bottom_pic {
+	display: block;
+	width: 820;
+	margin: 0 auto;
+	padding: 8px;
+}
+/*底部声明结束*/
