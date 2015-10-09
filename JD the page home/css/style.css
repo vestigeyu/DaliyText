@@ -25,6 +25,13 @@ table {
 	/*border-spacing: 0px;*/
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+em {
+	font-style: normal;
+}
 /*顶部菜单*/
 #top_bg {
 	width: 100%;
@@ -654,15 +661,186 @@ table {
 	border-right: none;
 }
 
-#mid #RightShow #shfw #shfw_box #bt{
+#mid #RightShow #shfw #shfw_box #z_c {
+	border-bottom: none;
+} 
+
+#mid #RightShow #shfw #shfw_box #l_c {
+	border-bottom: none;
+}
+
+#mid #RightShow #shfw #shfw_box #l_p_k {
+	border-bottom: none;
+}
+
+#mid #RightShow #shfw #shfw_box #b_t {
  	border-right: none;
+ 	border-bottom: none;
 }
 /*#mid #RightShow #shfw #shfw_box #hf {
 	background: url(../images/shfw.png) no-repeat 0px 0px;
 }*/
 /*右侧区域结束*/
-
 /*中部展示区域结束*/
+
+/*中部今日推荐*/
+#recommend {
+	width: 1214px;
+	height: 164px;
+	/*border: 1px solid orange;*/
+	margin: 0 auto;
+	margin-top: 10px; 
+}
+
+#recommend li {
+	float: left;
+	width: 250px;
+	padding-right: 1px;
+}
+
+#recommend li img {
+	display: block;
+	
+}
+
+#recommend #jrtj {
+	width: 210px;
+	height: 164px;
+	background: url(../images/homebg.png) no-repeat -213px -136px;
+	padding-right: 0px;
+}
+/*中部今日推荐结束*/
+/*中部猜你喜欢*/
+#Enjoy {
+	width: 1210px;
+	height: 273px;
+	margin: 0 auto;
+	/*border: 1px solid orange;*/
+	padding-top: 15px;
+}
+
+#Enjoy #GuessEnjoy {
+	width: 1210px;
+	height: 40px;
+	/*border: 1px solid blue;*/
+}
+
+#Enjoy #GuessEnjoy h3 {
+	font-size: 20px;
+	color: rgb(102,102,102);
+	line-height: 40px;
+	float: left;
+	font-family: 微软雅黑;
+}
+
+#Enjoy #GuessEnjoy h3+span {
+	display: block;
+	float: left;
+	width: 225px;
+	height: 15px;
+	background: url(../images/homebg.png) no-repeat 0px -100px;
+	margin-top: 14px;
+	margin-left: 5px;
+}
+
+#Enjoy #GuessEnjoy #hyp {
+	width: 61px;
+	height: 40px;
+	float: right;
+}
+
+#Enjoy #GuessEnjoy #hyp span {
+	font-size: 12px;
+	color: rgb(102,102,102);
+	line-height: 40px;
+	float: left;
+}
+
+#Enjoy #GuessEnjoy #hyp span+span {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../images/homebg.png) no-repeat -351px -4px;
+	margin-top: 7px;
+	margin-left: 4px;
+}
+
+#Enjoy #EnjoyKind {
+	width: 1208px;
+	height: 231px;
+	border: 1px solid #ededed;
+}
+
+#Enjoy #EnjoyKind li {
+	width: 201px;
+	height: 231px;
+	float: left;
+	/*border: 1px solid blue;*/
+	position: relative;
+}
+
+#Enjoy #EnjoyKind li img {
+	width: 130px;
+	height: 130px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 35px;
+}
+
+#Enjoy #EnjoyKind li .EnjoyBorder a {
+	width: 130px;
+	height: 36px;
+	overflow: hidden;
+	font-size: 12px;
+	display: block;
+	color: rgb(102,102,102);
+	line-height: 18px;
+	position: absolute;
+	top: 0px;
+	left: 35px;
+}
+
+#Enjoy #EnjoyKind li .EnjoyBorder a:hover {
+	color: rgb(200,22,35);
+}
+
+#Enjoy #EnjoyKind li .EnjoyBorder span {
+	color: rgb(181,29,26);
+	font-size: 18px;
+	line-height: 18px;
+	font-family: Arial,​Verdana,​"宋体";
+	position: absolute;
+	top: 43px;
+	left: 43px;
+
+}
+
+#Enjoy #EnjoyKind li .EnjoyBorder em {
+	color: rgb(181,29,26);
+	font-size: 14px;
+	font-family: Arial,​Verdana,​"宋体";
+	position: absolute;
+	top: 44px;
+	left: 35px;
+}
+
+#Enjoy #EnjoyKind li .EnjoyBorder {
+	width: 201px;
+	height: 61px;
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	border-right: 1px solid #ededed;
+}
+
+#Enjoy #EnjoyKind li #EnjoyBorder_1 {
+	border-right: none;
+}
+
+
+/*中部猜你喜欢结束*/
 
 
 
