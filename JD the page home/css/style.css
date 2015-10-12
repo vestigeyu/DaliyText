@@ -1167,6 +1167,86 @@ em {
 	color: rgb(200,22,35);
 }
 /* 中部京东特色购结束 */
+/*京东特色购下方宣传*/
+#txc {
+	width: 1210px;
+	height: 135px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#txc img {
+	float: left;
+}
+/*京东特色购下方宣传结束*/
+/*1F服装鞋包*/
+#FZXB {
+	width: 1210px;
+	height: 800px;
+	margin: 0 auto;
+	border: 1px solid orange;
+}
+#FZXB #FZXB_top {
+	width: 1210px;
+	height: 36px;
+/*	border: 1px solid blue;*/
+/*	border-bottom: 1px solid #a10000;*/
+}
+
+#FZXB #FZXB_top p {
+	width: 40px;
+	height: 36px;
+	float: left;
+	background: url(../images/sprite_floor.png) no-repeat 0px 2px;
+	font-size: 13px;
+	color: white;
+	font-family: 微软雅黑;
+	line-height: 30px;
+	text-indent: 2px;
+}
+
+#FZXB #FZXB_top span {
+	height: 36px;
+	float: left;
+	font-size: 20px;
+	color: rgb(51,51,51);
+	font-family: 微软雅黑;
+	line-height: 30px;
+}
+
+#FZXB #FZXB_top div {
+	float: right;
+	border: 1px solid #ededed;
+	height: 34px;
+/*	padding: 0px 17px;*/
+
+}
+
+#FZXB #FZXB_top div a {
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	padding: 0px 17px;
+	line-height: 34px;
+}
+
+#FZXB #FZXB_top div em {
+	float: left;
+	font-size: 12px;
+	color: #cccccc;
+	 
+	line-height: 34px;
+}
+
+#FZXB #FZXB_top div a:hover {
+	color: rgb(200,22,35);
+	border-top: 2px solid rgb(200,22,35);
+	border-bottom: none;
+	border-left: 1px solid rgb(200,22,35);
+	border-right: 1px solid rgb(200,22,35);
+}
+/*1F服装鞋包结束*/
 
 
 
