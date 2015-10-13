@@ -1182,15 +1182,15 @@ em {
 /*1F服装鞋包*/
 #FZXB {
 	width: 1210px;
-	height: 800px;
+	/*height: 800px;*/
 	margin: 0 auto;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 }
 #FZXB #FZXB_top {
 	width: 1210px;
 	height: 36px;
 /*	border: 1px solid blue;*/
-/*	border-bottom: 1px solid #a10000;*/
+	border-bottom: 1px solid #a10000;
 }
 
 #FZXB #FZXB_top p {
@@ -1218,6 +1218,7 @@ em {
 	float: right;
 	border: 1px solid #ededed;
 	height: 34px;
+	border-bottom: none;
 /*	padding: 0px 17px;*/
 
 }
@@ -1246,6 +1247,228 @@ em {
 	border-left: 1px solid rgb(200,22,35);
 	border-right: 1px solid rgb(200,22,35);
 }
+
+#FZXB_show {
+	width: 1210px;
+	height: 475px;
+	/*border: 1px solid blue;*/
+}
+
+#FZXB_show #FZXB_show_left {
+	width: 330px;
+	height: 475px;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 {
+	/*width: 330px;*/
+	height: 92px;
+	float: left;
+	position: absolute;
+	top: 253px;
+	left: 0px;
+	background: rgba(255,255,255,0.5);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 a {
+	display: block;
+	height: 26px;
+	text-indent: 31px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	line-height: 26px;
+	color: rgb(102,102,102);
+	float: left;
+	/*border: 1px solid red;*/
+	margin: 10px 16px 10px 25px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 a:hover {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_1 {
+	background: url(../images/clothesicon.png) no-repeat 0px 0px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_2 {
+	background: url(../images/clothesicon.png) no-repeat 0px -26px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_3 {
+	background: url(../images/clothesicon.png) no-repeat 0px -52px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_4 {
+	background: url(../images/clothesicon.png) no-repeat 0px -78px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_5 {
+	background: url(../images/clothesicon.png) no-repeat 0px -104px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_1 #FZXB_tag_6 {
+	background: url(../images/clothesicon.png) no-repeat 0px -130px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2 {
+	width: 330px;
+	height: 130px;
+	position: absolute;
+	top: 345px;
+	left: 0px;
+	background: rgba(255,255,255,0.7);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_1 {
+	width: 120px;
+	/*height: 129px;*/
+	float: left;
+	/*margin-top: 16px;*/
+	position: absolute;
+	top: 16px;
+	left: 25px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_2 {
+	width: 120px;
+	/*height: 129px;*/
+	float: left;
+	position: absolute;
+	top: 16px;
+	left: 185px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_1 a {
+	float: left;
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+	padding-right: 11px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_2 a {
+	float: left;
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+	padding-right: 11px;
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_1 .FZXB_show_left_3 {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_2 .FZXB_show_left_3 {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_1 a:hover {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_left #FZXB_show_left_2_2 a:hover {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_right {
+	width: 880px;
+	height: 475px;
+	/*border: 1px solid red;*/
+	float: left;
+	/*background: red;*/
+}
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 {
+	width: 880px;
+	height: 238px;
+	float: left;
+/*	background: red;*/
+} 
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 .FSR_1_1 {
+	display: block;
+	width: 219px;
+	height: 237px;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	float: left;
+	position: relative;
+}
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 .FSR_1_1 img {
+	position: absolute;
+	top: 21px;
+	left: 44px;
+}
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 .FSR_1_1 a {
+	font-size: 12px;
+	line-height: 18px;
+	width: 180px;
+	color: rgb(102,102,102);
+	position: absolute;
+	top: 165px;
+	left: 17px;
+	height: 36px;
+	overflow: hidden;
+}
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 .FSR_1_1 a:hover {
+	color: rgb(200,22,35);
+}
+
+#FZXB_show #FZXB_show_right #FZXB_show_right_1 .FSR_1_1 p {
+	font-size: 15px;
+	color: rgb(228,57,60);
+	line-height: 18px;
+	position: absolute;
+	top: 205px;
+	left: 17px;
+	font-family: Verdana;
+}
+
+#FZXB_mid {
+	width: 1209px;
+	height: 157px;
+	border: 1px solid #ededed;
+	/*background: red;
+	float: loft;*/
+	border-left: none;
+}
+
+#FZXB_mid a {
+	height: 157px;
+	float: left;
+	border-right: 1px solid #ededed;
+}
+
+#FZXB_bottom {
+	width: 1210px;
+	height: 66px;
+	background: #f7f7f7;
+	margin-top: 10px;
+}
+
+#FZXB_bottom div {
+	width: 120px;
+	height: 40px;
+	border-right: 1px dotted #cccccc;
+	float: left;
+	margin-top: 14px;
+}
+
+#FZXB_bottom div img {
+	margin: 0px 10px;
+}
+
+#FZXB_bottom .FZXB_bottom_1 {
+	border-right: none;
+}
+
+
 /*1F服装鞋包结束*/
 
 
