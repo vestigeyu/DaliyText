@@ -1,0 +1,50 @@
+<!DCOTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>var</title>
+	<script>
+		var bj=56;
+		/* 默认赋值：不赋值则显示undefined */
+		var gd=58;
+
+		console.log("北京队"+bj+" : "+gd+"广东队")
+		bj=bj+3;
+		gd=gd+2;
+		console.log("北京队"+bj+" : "+gd+"广东队")
+		const π=3.141592;
+		var hd=π/180*60;
+		console.log(hd+"弧度");
+		π=π-2;
+		hd=π/180*60;
+		console.log("弧度="+hd)
+
+		/*数据类型*/
+		/*Number类型舍入误差*/
+		var price=1.5;
+		var money=2;
+		var change=money-price;
+		console.log(change.toFixed(2));
+		//change.toFixed(2);
+		//按指定位数四舍五入：数字.toFixed(小数位数) 四舍五入。
+		/*string*/
+		var yu="俞";
+		console.log(yu.charCodeAt(0));
+		var jiang="江";
+		console.log(jiang.charCodeAt(0));
+		var tao="涛";
+		console.log(tao.charCodeAt(0));
+		/*转义字符*/
+		console.log("\tjs是用来编写网页行为的脚本语言，js属于\"弱类型\";\n变量是内存用来存储数据的空间;不同的数据类型作用是不同的")
+		/*字符串变量的内容一旦创建不可改变！如果改变，只能创建新的字符串，抛弃旧字符串。*/
+
+		var name="俞江涛";
+		var age=23;
+		var isParty=false;
+		console.log(name+"\n"+age+"岁"+"\n是否是党员"+isParty);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
