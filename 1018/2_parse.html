@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>强制类型转换</title>
+	<script>
+	console.log("js中true+非字符串类型，会隐式转为"+Number(true));
+
+	console.log(parseInt(" 12px"));//12
+	console.log(parseInt("true"));//NaN
+	console.log(parseInt("22.5"));//22
+	console.log(parseInt(""));//NaN
+
+	console.log(parseFloat("22.5"));//22.5
+	console.log(parseFloat("22.5.5"));//22.5
+	console.log(parseFloat(".25"));//0.25
+	console.log(parseFloat("22.0"));//22
+	</script>
+</head>
+<body>
+	<script>
+		var str=prompt("请输入工资：");
+		var salary=parseFloat(str)+1000;
+		alert("您涨薪之后为："+salary);
+	</script>
+</body>
+</html>>

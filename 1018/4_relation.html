@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>relation</title>
+		<script>
+			console.log(undefined==null);//true
+			console.log(typeof(undefined));//undefined
+			console.log(typeof(null));//Object
+			console.log(undefined===null);//false
+
+			console.log(isNaN(""));//false
+			//关系运算中空字符串""，可以自动转换为0或false;
+			console.log(isNaN(22.5));//flase
+			//isNaN用于判断数据是否是NaN，
+			//如果是NaN——>返回true;
+			//如果不是NaN——>返回false;
+			console.log(isNaN("10"));//false
+			//关系运算中"10"，可以自动转换为10;
+			console.log(isNaN(true));//false
+			//关系运算中true，可以自动转换为1;
+			console.log(isNaN("NaN"));//true;
+			console.log(isNaN("12px"));//true
+			console.log(isNaN("NaN"));//true
+
+			var temper=0;
+			var weather="雨";
+			var money=45;
+			var downkacket=temper<-3;
+			var umbrella=weather=="雨";
+			var taxi=money>=45;
+
+			console.log("是否穿夹克："+downkacket+"\n是否下雨："+umbrella+"\n是否打的："+taxi)
+		</script>
+	</head>
+</html>
