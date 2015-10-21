@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>……</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var price=parseFloat(prompt("请输入单价："));
+			var count=parseFloat(prompt("请输入数量："));
+			var money=parseFloat(prompt("请输入收款金额："));
+
+			/*function syt() {
+				var ysMoney=price*count;
+				var zlMoney=money-ysMoney;
+				return ysMoney;
+				return zlMoney;
+			}*/
+
+			var ysMoney=price*count;
+			ysMoney=ysMoney>=500?ysMoney*0.8:ysMoney;
+			var zlMoney=money-ysMoney;
+			
+			document.write("应收金额="+ysMoney.toFixed(2));
+			document.write("\n找零金额="+zlMoney.toFixed(2));
+
+
+			
+
+
+
+		</script>
+	</body>
+</html>
