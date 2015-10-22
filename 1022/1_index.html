@@ -16,13 +16,23 @@
 				return ysMoney;
 				return zlMoney;
 			}*/
-
 			var ysMoney=price*count;
-			ysMoney=ysMoney>=500?ysMoney*0.8:ysMoney;
-			var zlMoney=money-ysMoney;
+			if (ysMoney>=500) {
+				ysMoney*=0.8;
+			}
+			
+			// ysMoney=ysMoney>=500?ysMoney*0.8:ysMoney;
 			
 			document.write("应收金额="+ysMoney.toFixed(2));
-			document.write("\n找零金额="+zlMoney.toFixed(2));
+
+			if (money>=ysMoney) {
+				var zlMoney=money-ysMoney;
+				document.write("\n找零金额="+zlMoney.toFixed(2));
+			} else {
+				var zlMoney=ysMoney-money;
+				document.write("\n还差="+zlMoney.toFixed(2));
+			}
+			
 
 
 			
