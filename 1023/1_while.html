@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*var round=0;
+		while(round<3) {
+			console.log("转一圈");
+			round+=1;
+		}
+		console.log("停止");*/
+
+		var n=parseInt(Math.random()*(10-0+1)+0);
+		//循环条件：input!=10
+		//循环变量：input
+		var input=-1;
+		while (input!=n) {
+			input=prompt("你猜：")
+			//提示用户输入数字/exit;
+			if (input!="") {
+				if (input=="exit") {
+					alert("放弃游戏");
+					break;
+					//如果用户输入exit，则退出游戏;
+				} else {
+					input=parseInt(input);
+					//比较;
+						if (input>n) {
+							alert("大了");
+						} else if (input<n) {
+							alert("小了");
+						} else {
+							alert("猜对了");
+						}
+				}
+			};
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var count=0;
+		var year=2001;
+		while (count<5) {
+			if ((year%4==0 && year%100!=0)||(year%400==0)) {
+				console.log(year);
+				count++;
+			};
+			year++;
+		}
+	</script>
+</body>
+</html>
