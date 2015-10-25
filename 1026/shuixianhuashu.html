@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//循环条件：num<=999;
+		//循环数：num num从100开始;
+		//循环体：num==(bw*bw*bw)+(sw*sw*sw)+(gw*gw*gw);
+
+		for (var num=100;num<=999;num++) {
+			var bw=parseInt(num/100);
+			var sw=parseInt((num%100)/10);
+			var gw=num%10;
+			if (num==(bw*bw*bw)+(sw*sw*sw)+(gw*gw*gw)) {
+				console.log(num);
+			};
+		}
+	</script>
+</body>
+</html>

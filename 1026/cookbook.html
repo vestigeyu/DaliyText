@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//循环条件：input!=-1;
+		//循环变量：input;
+		//循环体：
+		//			总人数+=input;count++;
+
+		var sum=0;
+		var count=1;
+		do {
+			var input=parseFloat(prompt("请输入学生分数，截止输入-1"));
+
+				if (input==-1) {
+					break;
+				} else {
+					sum+=input;
+					count++;
+				};
+			}while(true);
+
+				/*if (input!=-1 && !isNaN(input)) {
+					sum+=input;
+					count++;
+				};
+
+		}while(input!=-1);*/
+		console.log("平均分："+(sum/count).toFixed(2));
+	</script>
+</body>
+</html>
