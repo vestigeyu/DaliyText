@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	function bubble(arr) {
+		for (var n=1;n<=arr.length-1;n++) {
+			for (var i=0;i<arr.length-n;i++) {
+				if (arr[i]>arr[i+1]) {
+					var box=arr[i];
+					arr[i]=arr[i+1];
+					arr[i+1]=box;
+				};
+			}
+		}
+	}
+
+	var arr=[3,6,9,4,8,7,2,5];
+	document.write(arr+"</br>");
+	bubble(arr);
+	document.write(arr);
+	</script>
+</body>
+</html>
