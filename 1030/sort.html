@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		 /*var arr=[123,243,356,431,186,479,500,999];
+		 document.write(arr+"<br>");
+		 function compare(a,b) {
+		 	return a-b;
+		 }
+		 arr.sort(compare);
+		 document.write(arr+"<br>");
+		 function compareDESC(a,b) {
+		 	return b-a;
+		 }
+		 arr.sort(compareDESC);
+		 document.write(arr+"<br>");*/
+
+
+
+		 /*var a=1;
+		 var b=2;
+		 var r=compare(a,b);
+		 if (r>0) {
+		 	document.write(a+"大于"+b);
+		 }else if (r<0) {
+		 	document.write(a+"小于"+b);
+		 }else{
+		 	document.write(a+"等于"+b);
+		 }*/
+
+		 var arr=[123,321,12,32,13,113,132];
+
+		 function compareASC(a,b) {
+		 	return a-b;
+		 }
+		 function compareDESC(a,b) {
+		 	return b-a
+		 }
+
+		 function sortASC() {
+		 	arr.sort(compareASC);
+		 	console.log(arr.toString());
+		 }
+
+		 function sortDESC() {
+		 	arr.sort(compareDESC);
+		 	console.log(arr.toString());
+		 }
+	</script>
+
+	<button onclick="sortASC()">升序排列</button>
+	<button onclick="sortDESC()">降序排列</button>
+</body>
+</html>

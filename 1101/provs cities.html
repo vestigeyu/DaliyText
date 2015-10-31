@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//var parovs=['上海','江苏','河北'];
+		var cities=[
+			["黄浦","静安","嘉定区","徐汇区"],
+			["南京","苏州","常州","无锡"],
+			["石家庄","武汉","保定"]
+		];
+
+		//遍历二维数组
+
+		//遍历下标为0的数组。
+		/*for (var i=0,i<cities[0],i++) {
+			console.log(cities[0][i])
+		}*/
+
+		//下标为1的数组
+		/*for (var i=0;i<cities[n],i++) {
+			console.log(cities[n][i]);
+		}*/
+
+		//二维数组的遍历
+		for (var n=0;n<cities.length;n++) {
+			for (var i=0;i<cities[n].length;i++) {
+				console.log(cities[n][i]);
+			}
+		}
+		/*function getCitiesByParovs(parov) {
+			var index;
+			for (var i=0;i<=parovs.length;i++) {
+				if (parov==parovs[i]) {
+					index=i;
+					break;
+				}
+			}
+			if (index!==undefined) {
+				console.log(cities[index].toString());
+			}
+		}*/
+
+		/*var cities={
+			"上海":["黄浦","静安","嘉定区","徐汇区"],
+			"江苏":["南京","苏州","常州","无锡"],
+			"河北":["石家庄","武汉","保定"]
+		}
+
+		function getCitiesByParovs(parov) {
+			console.log(cities[parov].toString());
+		}*/
+	</script>
+	<button onclick="getCitiesByParovs('上海')">上海市</button>
+	<button onclick="getCitiesByParovs('江苏')">江苏省</button>
+	<button onclick="getCitiesByParovs('河北')">河北省</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	var bus=[];
+	for(var i=1;i<=5;i++) {
+		bus.push("乘客"+i);
+	}
+	document.write(bus+"<br>");
+
+	while(bus.length>0) {
+		var ck=bus.pop();
+		document.write(ck+" 乘客下车"+"<br>");
+	}
+	document.write(bus+"<br>");
+	</script>
+</body>
+</html>
