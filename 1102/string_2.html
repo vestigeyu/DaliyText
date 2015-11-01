@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	//var str="hifvjsdnfkvdsfdsffvniberjejfdksjgv京东司法技术等123456￥%……&*";
+
+	var str=prompt("请输入一段话：");
+	var chscount=0;
+	var numcount=0;
+	var engcount=0;
+	var other=0;
+	for (var i=0;i<str.length;i++) {
+		var word=str.charCodeAt(i);
+		if (word>=48&&word<=57) {
+			numcount++;
+		} else if ((word>=65&&word<=90)||(word>=97&&word<=122)) {
+			engcount++;
+		} else if (word>=19968&&word<=40869) {
+			chscount++;
+		} else {
+			other++;
+		}
+	}
+
+	document.write(str);
+	document.write("<br>"+"汉字："+chscount+"个");
+	document.write("<br>"+"数字："+numcount+"个");
+	document.write("<br>"+"字母："+engcount+"个");
+	document.write("<br>"+"其他："+other+"个");
+
+	</script>
+</body>
+</html>

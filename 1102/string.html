@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var input=prompt("输入消息：");
+		var result=[];
+		/*for (var i=0;i<input.length;i++) {
+			var num=input.charCodeAt(i);
+			if (num<10000) {
+				var arr=[0,0,0,0,0];
+				var code=num+"";
+				var start=5-code.length;
+				for (var n=0;n<code.length;n++) {
+					arr[start]=code[n];
+					start++;
+				}
+				num=arr.join("");
+			}
+			result.push(num);
+		}*/
+
+		for (var i=0;i<input.length;i++) {
+			var num=input.charCodeAt(i);
+			if (num<10000) {
+				num=num+10000+"";
+				num="0"+num.slice(1);
+			}
+			result.push(num);
+		}
+		document.write(input+"<br>");
+		document.write(result.join(""));
+	</script>
+</body>
+</html>

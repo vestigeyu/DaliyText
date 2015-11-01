@@ -1,0 +1,17 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	var str="you can you up";
+	var words=str.split(" ");
+	for (var i=0;i<words.length;i++) {
+		words[i]=words[i][0].toUpperCase()+words[i].substring(1);
+	}
+	str=words.join(" ");
+	console.log(str);
+	</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var input=prompt("粘贴编码");
+		var arr=[];
+		for (var i=0;i<input.length;i+=5) {
+			var code=input.substring(i,i+5);
+			arr.push(String.fromCharCode(code));
+		}
+		var result=arr.join("");
+		document.write(result);
+	</script>
+</body>
+</html>
