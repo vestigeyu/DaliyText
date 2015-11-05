@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var str="you can you up";
+		var reg=/you/ig;
+		var kwords=str.match(reg);
+		document.write(kwords+"<br>");
+		str=str.replace(reg,"**");
+		document.write(str+"<br>");
+		if (kwords!=null) {
+			document.write("共修改"+kwords.length+"处");
+		}
+	</script>
+</body>
+</html>
