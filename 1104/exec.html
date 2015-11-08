@@ -1,0 +1,56 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*var str="明明是你先靠近的，但是最后舍不得的却是我。我想静静，别特么问我静静是谁，你特么先告诉我明明是谁";
+		var regExp=/明明|静静/g;
+		var arr=[];
+		while ((arr=regExp.exec(str))!=null) {
+			document.write("在"+arr.index+"位置，发现关键字："+arr[0]+"；<br>");
+		}*/
+
+		/*var str="<head><meta charset='UTF-8'><title>Document</title></head><a class=one herf='www.baidu.com'>链接1</a><a herf='www.google.com'>链接2</a>";
+		var regExp=/<a(.+?)herf=['"](.*?)['"](.*?)>/ig;
+		var arr=str.match(regExp);
+		console.log(arr);
+		/*while ((arr=regExp.exec(str))!=null) {
+			console.log(arr[0]);
+			console.log(RegExp.$2);
+		}*/
+
+		/*var str="我操，我去他家。"
+		str=str.replace(/我[去操]/ig,"**");
+		document.write(str);*/
+
+		/*var str="no   zuo no     die";
+		var words=str.split(/\s+/);
+		for (var i=0;i<words.length;i++) {
+			words[i]=words[i][0].toUpperCase()+words[i].substring(1);
+		};
+		str=words.join(" ");
+		document.write(words);*/
+
+		var code="4Db5";
+		while (true) {
+			var input=prompt("请输入验证码：");
+			input=trim(input);
+			if (input==code) {
+				document.write("登录成功");
+				break;
+			} else {
+				alert("验证码错误");
+			}
+		}
+
+		function trim(str) {
+			var regExp=/(^\s+)|(\s+$)/g;
+			str=str.replace(regExp,"")
+			return str;
+		}
+
+	</script>
+</body>
+</html>
