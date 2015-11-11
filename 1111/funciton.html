@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*function calc(n) {
+			alert(n*n);
+		}
+		function calc(n,m) {
+			alert(n+m);
+		}*/
+		function calc() {
+			if (arguments.length==1) {
+				var n=parseFloat(arguments[0]);
+				alert(n*n);
+			}else{
+				var n=parseFloat(arguments[0]);
+				var m=parseFloat(arguments[1]);
+				alert(n+m);
+			}
+		}
+	</script>
+	<button onclick="calc(13)">算平方</button>
+	<button onclick="calc(12,13)">算加法</button>
+</body>
+</html>

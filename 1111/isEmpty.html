@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function isEmpty(str) {
+			if (str===undefined) {
+				return true;
+			}else if (str==null) {
+				return true;
+			}else {
+				return /^\s*$/.test(str);
+			}
+		}
+		while (true) {
+			var input=prompt("输入");
+			if (!isEmpty(input)) {
+				document.write("<br>"+input+"<br>");
+				break;
+			}else {
+				alert("输入不能为空");
+			}
+		}
+	</script>
+</body>
+</html>
