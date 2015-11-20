@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<style type="text/css">
+		#text {
+			/*display: none;*/
+			width: 120px;
+			height: 120px;
+			border: 1px solid red;
+		}
+
+		.li {
+			font-size: 15px;
+			color: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="hello">你好</div>
+	<div id="text">Hello iMooc!</div>
+	<!-- <button onclick="sayHello()">点我！</button> -->
+
+	<form action="post">
+		<input type="text" value="你好">
+		<input type="button" value="1">
+		<input type="password">
+	</form>
+
+		<a href="#" class="li">1</a><br>
+		<li class="li">2</li><br>
+		<i class="li">3</i><br>
+		<span class="li">4</span><br>
+		<u class="li">5</u><br>
+
+	<script type="text/javascript">
+			$("你好").html("hello word");
+			$("input").attr("disabled","true")
+			$("li,a,span").css("color","yellow")
+			
+	</script>
+</body>
+</html>
