@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>读取并修改元素内容</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript">
+		function readReport(btn) {
+			//alert(btn.textContent);
+			//alert(btn.innerHTML);
+			//alert(btn.innerText);
+			btn.innerHTML = '读取中，请稍等…';
+		}
+
+		function midButton(mid) {
+			
+			/*if (mid.innerHTML=='&lt;&lt;') {
+				mid.innerHTML = '&gt;&gt;';
+				document.getElementById('left').style.display='none';
+			} else {
+				mid.innerHTML = '&lt;&lt;';
+				document.getElementById('left').style.display='block';
+			}*/
+			// getElementById('left')=css()
+			if (mid.innerHTML=="&lt;&lt;") {
+				mid.innerHTML = '&gt;&gt;';
+				$("#left").css('display','none')
+				$("#right").css('width','300px')
+			} else {
+				mid.innerHTML = "&lt;&lt;";
+				$("#left").css('display','block')
+				$("#right").css('width','200px')
+			}
+		}
+		
+	</script>
+</head>
+
+<body>
+	<button onclick="readReport(this)">读取报表</button>
+	<!-- <br> -->
+	<!-- <br> -->
+	<!-- <br> -->
+	<!-- <br> -->
+	<!-- <br> -->
+	<!-- <br> -->
+	<br>
+	<br>
+	<div id="second">
+		<div id="left">树形列表</div>
+		<button id="mid" onclick="midButton(mid)">&lt;&lt;</button>
+		<!-- </button> -->
+		<div id="right">内容的主体</div>
+	</div>
+</body>
+</html>
