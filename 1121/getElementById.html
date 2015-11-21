@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="foo">
+		<span>a</span>
+		<span>b</span>
+		<span>c</span>
+	</p>
+	<p id="bar">
+		<span>x</span>
+	</p>
+	<script>
+		var foo = document.getElementById("foo")
+		//alert(document.getElementById("foo"));
+		alert(foo.length)
+		var foospans = foo.getElementsByTagName("span")
+		alert(foospans.length)
+		alert(foospans.getElementsByTagName)
+		var allSpans = document.getElementsByTagName("span")
+		alert(allSpans.length)
+	</script>
+</body>
+</html>
