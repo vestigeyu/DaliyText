@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		var cur = 1;
+		/*function show(num) {
+			if (cur != num) {
+				var div1 = document.getElementById('content' + cur);
+				 div1.removeAttribute('class');
+				// var div = document.getElementById('content' + cur);
+				// div.removeAttribute('class');
+				// cur += 1;
+				var div2 = document.getElementById('content' + num);
+				div2.setAttribute('class','level');
+				cur = num;
+			}
+		}*/
+		function show(num) {
+			
+		}
+	</script>
+</head>
+<body>
+	<div id="left">
+		<div class="top" onclick="show(1)"></div>
+		<div class="mid" onclick="show(2)"></div>
+		<div class="buttom" onclick="show(3)"></div>
+	</div>
+	<div id="right">
+		<div id="content1" class="level"></div>
+		<div id="content2" class="level"></div>
+		<div id="content3" class="level"></div>
+	</div>
+</body>
+</html>
