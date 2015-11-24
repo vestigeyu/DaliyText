@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#evenTable {
+			border-collapse: collapse;
+		}
+		#evenTable td {
+			border: 1px solid black;
+			width: 200px;
+			text-align: center;
+		}
+
+		.evenBackground {
+			background: grey;
+		}
+	</style>
+</head>
+<body>
+	<table id="evenTable">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+			<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	<script>
+		var table = document.getElementById('evenTable');
+		var tr = table.getElementsByTagName('tr');
+		for (var i=1;i<tr.length;i++) {
+			if (i % 2 !== 0) {
+				tr[i].setAttribute('class','evenBackground');
+			}
+		}
+	</script>
+</body>
+</html>
