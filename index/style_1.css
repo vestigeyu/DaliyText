@@ -1,0 +1,44 @@
+
+body,ul,li{padding: 0; margin: 0;}
+ul,li{list-style: none;}
+a {
+     text-decoration:none; 
+}
+
+#demo1{ 
+    position: relative;    
+    margin: 0 auto;
+    width: 1200px;     
+    /*border:1px solid #ccc;*/
+}
+
+#demo1 .img_list{overflow: hidden; position: relative; height: 440px;}
+/* 根据图片的张数来设定ul的宽度 */
+.img_list ul{ width: 4000px; position: absolute; height: 440px; left: 0px;}
+.img_list li{ float: left; width: 1202px;}
+.img_list img{ margin: 1px; width: 1200px; height: 440px;}
+
+/* 左右点击的按钮样式 */
+#demo1 .toLeft,#demo1 .toRight{
+    /*visibility: hidden;*/
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 200px;    
+    top: 90px;   
+    border: 1px solid black; 
+    background: #7F7F7F;
+    color: white;
+    font-size: 50px;
+    line-height: 180px;
+    text-align: center;
+}
+
+#demo1 .toLeft{
+    left: 100px;
+}
+#demo1 .toRight{
+    right: 100px;
+    background-position: -50px -150px;
+}
+
