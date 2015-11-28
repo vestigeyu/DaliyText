@@ -102,32 +102,36 @@ em {
 	color: #782B90;
 }
 
-
-
-#footer {
-	text-align:center;
+#midShow {
+	width: 100%;
+	height: 410px;
 }
+
 .fullSlide {
 	width:100%;
 	position:absolute;
 	height:410px;
 	background:#000;
 }
+
 .fullSlide .bd {
 	margin:0 auto;
 	position:relative;
 	z-index:0;
 	overflow:hidden;
 }
+
 .fullSlide .bd ul {
 	width:100% !important;
 }
+
 .fullSlide .bd li {
 	width:100% !important;
 	height:410px;
 	overflow:hidden;
 	text-align:center;
 }
+
 .fullSlide .bd li a {
 	display:block;
 	height:410px;
@@ -137,6 +141,7 @@ em {
 .fullSlide .bd li a:hover {
 	color:#1974A1;
 }
+
 .fullSlide .hd {
 	width:100%;
 	position:absolute;
@@ -146,9 +151,11 @@ em {
 	height:30px;
 	line-height:30px;
 }
+
 .fullSlide .hd ul {
 	text-align:center;
 }
+
 .fullSlide .hd ul li {
 	cursor:pointer;
 	display:inline-block;
@@ -163,9 +170,11 @@ em {
 	opacity:0.5;
 	line-height:999px;
 }
+
 .fullSlide .hd ul .on {
 	background:#f00;
 }
+
 .fullSlide .prev,.fullSlide .next {
 	display:block;
 	position:absolute;
@@ -182,8 +191,169 @@ em {
 	opacity:0.5;
 	display:none;
 }
+
 .fullSlide .next {
 	left:auto;
 	right:15%;
 	background-position:-6px -137px;
+}
+
+#midMessage {
+	width: 1100px;
+	height: 38px;
+	/*float: left;*/
+	/*position: absolute;
+	left: 125px;*/
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	/*z-index: 2;*/
+	overflow:hidden;
+}
+
+#midMessage .lbTag {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	top: 4px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/index_09.jpg) no-repeat;
+}
+
+#midMessage .lbTitle {
+	position: relative;
+	left: 18px;
+	bottom: 4px;
+	/*top: 4px;*/
+	font-size: 16px;
+	font-family: 微软雅黑;
+	font-weight: 700;
+	/*line-height: 38px;*/
+	color: #656565;
+}
+
+#callboard { 
+	position: relative;
+	left: 140px;
+	bottom: 26px;
+	width: 700px;
+	height:24px; 
+	line-height:24px; 
+	overflow:hidden;
+}
+
+#callboard ul { 
+	padding:0;
+}
+
+#callboard li {
+	padding:0;
+} 
+
+#callboard a {
+	font-size: 14px;
+	color: #666;
+}
+
+#MiddleRem {
+	width: 100%;
+	height: 407px;
+	background: #EEEDEB;
+	/*position: absolute;*/
+}
+
+#MiddleRem .midRem {
+	width: 1100px;
+	height: 407px;
+	background: #EEEDEB;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	/*position: absolute;*/
+	position: relative;
+	/*left: 100px;*/
+}
+
+.midRem .leftRem {
+	width: 469px;
+	height: 332px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 60px;
+	top: 35px;*/
+	float: left;
+	background: #fff;
+}
+
+.midRem .leftRem img {
+	position: absolute;
+	top: 0px;
+}
+
+.midRem .leftRem .Title {
+	font-size: 16px;
+	position: absolute;
+	top: 249px;
+	left: 20px;
+	color: #323232;
+	line-height: 22px;
+}
+
+.midRem .leftRem .detail {
+	width: 400px;
+	position: absolute;
+	top: 280px;
+	left: 20px;
+}
+
+.midRem .leftRem span {
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+	
+}
+
+.midRem .leftRem .More {
+	font-size: 14px;
+	color: #ee3032; 
+}
+
+.midRem .rightRem {
+	width: 469px;
+	height: 332px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 60px;
+	top: 35px;
+	/*float: right;
+	margin-right: 60px;
+	margin-top: 35px;*/
+	background: #fff;
+}
+
+.midRem .rightRem .Title {
+	font-size: 16px;
+	position: absolute;
+	top: 249px;
+	left: 20px;
+	color: #323232;
+	line-height: 22px;
+}
+
+.midRem .rightRem .detail {
+	width: 400px;
+	position: absolute;
+	top: 280px;
+	left: 20px;
+}
+
+.midRem .rightRem span {
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+	
+}
+
+.midRem .rightRem .More {
+	font-size: 14px;
+	color: #ee3032; 
 }
