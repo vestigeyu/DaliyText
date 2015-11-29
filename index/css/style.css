@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+i {
+	 font-style:normal;
+}
+
 
 input {
 	border: none;
@@ -356,4 +360,251 @@ em {
 .midRem .rightRem .More {
 	font-size: 14px;
 	color: #ee3032; 
+}
+
+#midtShow {
+	width: 100%;
+	height: 299px;
+}
+
+#midtShow .productShow {
+	width: 1100px;
+	height: 299px;
+	margin: 0 auto;
+}
+
+#midtShow .productShow .productTitle {
+	width: 150px;
+	height: 121px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#midtShow .productShow .productTitle div {
+	width: 50px;
+	height: 50px;
+	background: url(../images/index_20.jpg) no-repeat;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+}
+
+#midtShow .productShow .productTitle span {
+	font-size: 20px;
+	color: #424242;
+	line-height: 121px;
+	position: absolute;
+	top: 0;
+	left: 60px;
+}
+ 
+#midtShow .productShow .productMenu {
+	width: 1100px;
+	height: 178px;
+	/*margin: 0 auto;*/
+	border: 1px solid black;
+}
+
+#midNews {
+	width: 100%;
+	height: 433px;
+}
+
+/*#midNews .newsCenter {
+	width: 1100px;
+	height: 433px;
+	margin: 0 auto;
+	border: 1px solid red;
+}*/
+
+#midNews .newsCenter .newsCenterTitle {
+	width: 150px;
+	height: 93px;
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+
+#midNews .newsCenter .newsCenterTitle div {
+	width: 50px;
+	height: 50px;
+	background: url(../images/index_27.jpg) no-repeat;
+	position: absolute;
+	top: 30px;
+	left: 5px;
+}
+
+#midNews .newsCenter .newsCenterTitle span {
+	font-size: 20px;
+	color: #424242;
+	/*line-height: 93px;*/
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+#midNews .newsCenter .newsCenterShow {
+	width: 100%;
+	height: 340px;
+	background: #EEEDEB;
+	
+}
+
+#midNews .newsCenter .newsCenterShow ul {
+	width: 1100px;
+	height: 340px;
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+
+#midNews .newsCenter .newsCenterShow ul li {
+	display: block;
+	width: 507px;
+	height: 106px;
+	/*border: 1px solid black;*/
+}
+
+#midNews .newsCenter .newsCenterShow ul .news_1 {
+	position: absolute;
+	top: 47px;
+	left:1px;
+}
+
+#midNews .newsCenter .newsCenterShow ul .news_2 {
+	position: absolute;
+	top: 47px;
+	right:2px;
+}
+
+#midNews .newsCenter .newsCenterShow ul .news_3 {
+	position: absolute;
+	bottom: 57px;
+	left: 1px;
+}
+
+#midNews .newsCenter .newsCenterShow ul .news_4 {
+	position: absolute;
+	bottom: 57px;
+	right: 2px;
+}
+
+#midNews .newsCenter .newsCenterShow ul span {
+	font-size: 14px;
+	color: #414141;
+	position: absolute;
+	top: 4px;
+	right: 2px;
+}
+
+#midNews .newsCenter .newsCenterShow ul i {
+	font-size: 14px;
+	color: #414141;
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+
+#midNews .newsCenter .newsCenterShow ul a {
+	width: 90px;
+	height: 27px;
+	background: #767676;
+	border-radius: 5px;
+	position: absolute;
+	top: 68px;
+	left: 230px;
+	color: #fff;
+	line-height: 27px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#midNews .newsCenter .newsCenterShow ul a:hover {
+	background: #782B90;
+}
+
+#bottomBlogroll {
+	width: 100%;
+	height: 156px;
+}
+
+#bottomBlogroll .blogrollTittle {
+	width: 150px;
+	height: 71px;
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+
+
+#bottomBlogroll .blogrollTittle div {
+	width: 50px;
+	height: 50px;
+	background: url(../images/index_36.jpg) no-repeat;
+	position: absolute;
+	bottom: 3px;
+	left: 5px;
+}
+
+#bottomBlogroll .blogrollTittle span {
+	font-size: 20px;
+	color: #424242;
+	/*line-height: 93px;*/
+	position: absolute;
+	top: 29px;
+	left: 60px;
+}
+
+#bottomBlogroll .blogrollShow {
+	width: 1100px;
+	height: 63px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	/*padding-left: 10px;*/
+}
+
+#bottomBlogroll .blogrollShow a {
+	display: block;
+	width: 182px;
+	height: 61px;
+	border: 1px solid #D5D5D5;
+	float: left;
+	border-right: 0px;
+}
+
+#bottom {
+	width: 100%;
+	height: 98px;
+	background: #5C5C5C;
+	border-top: 1px solid #676767;
+}
+
+#bottom .bottom_1 {
+	width: 788px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#bottom .bottom_1 span {
+	color: #e7e7e7;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#bottom .bottom_1 a {
+	color: #e7e7e7;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#bottom .bottom_2 {
+	width: 826px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+#bottom .bottom_2 span {
+	color: #e7e7e7;
+	font-size: 14px;
+	line-height: 16px;
 }
