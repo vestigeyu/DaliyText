@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="midShow">
+		<div id="scroll">	
+			<p class="subl">上一张</p>
+			<p class="subr">下一张</p>
+			<ul class="ul_1">
+				<li class="show_1">1</li>
+				<li class="show_2">2</li>
+				<li class="show_3">3</li>
+				<li class="show_4">4</li>
+			</ul>
+			<ul class="ul_2">
+				<li class="show_1">1</li>
+				<li class="show_2">2</li>
+				<li class="show_3">3</li>
+				<li class="show_4">4</li>
+			</ul>
+			<ul class="ul_3">
+				<li class="show_1">1</li>
+				<li class="show_2">2</li>
+				<li class="show_3">3</li>
+				<li class="show_4">4</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+	/*轮播*/
+	// $(document).ready(function(){})
+	 // $(document).ready(function(){})
+		$(function(){
+			var i=0;
+			var j=0  ;
+			var n = 0;
+			var len=$("#scroll .ul_1 li").length-1;
+
+			$(".subl").click(function(){
+				// if(i==len){
+				// 	i=-1;
+				// }
+				// i++;
+				if (j==len) {
+					j=-1;
+				};
+				j++;
+				$("#scroll .ul_2 li").eq(j).fadeIn().siblings().hide();
+				
+				if (n==len) {
+					n=-1;
+				};
+				n++
+				// alert(i);
+				// $("#scroll .ul_1 li").eq(i).fadeIn().siblings().hide();
+				
+				$("#scroll .ul_3 li").eq(n).fadeIn().siblings().hide();
+				// alert(i);
+			});
+			// alert(i);
+
+			//到这里分开！上面的是上一张点击的效果代码，下面的是下一张点击的效果代码．
+		
+			$(".subr").click(function(){//获取类名的点击事件．
+				// alert(len);
+
+				if(i==0){
+					i=len+1;
+					// alert(len); 
+				}
+				i--;
+				// alert(i);
+				$("#scroll ul li").eq(i).fadeIn().siblings().hide();
+			});
+		});
+ 		/*轮播*/
+	// 	</script>
+</body>
+</html>

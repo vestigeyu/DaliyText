@@ -50,3 +50,5 @@ jQuery(".fullSlide").slide({
 }(window));
 setTimeout(window.autoAnimation, 5000); 
 // 公告通知效果
+
+jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});

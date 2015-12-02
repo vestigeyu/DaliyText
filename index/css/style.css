@@ -398,11 +398,81 @@ em {
 	left: 60px;
 }
  
-#midtShow .productShow .productMenu {
+.picScroll-left {
 	width: 1100px;
 	height: 178px;
 	/*margin: 0 auto;*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	position: relative;
+	
+}
+
+.picScroll-left .hd .next {
+	display: block;
+	width: 41px;
+	height: 178px;
+	background: url(../images/index_40.jpg);
+	position: absolute;
+	left: -10px;
+	cursor:pointer;
+}
+
+.picScroll-left .hd .prev {
+	display: block;
+	width: 41px;
+	height: 178px;
+	background: url(../images/index_05.jpg);
+	position: absolute;
+	right: -10px;
+	cursor:pointer;
+}
+
+.picScroll-left .bd {
+	width: 1030px;
+	height: 178px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow:hidden
+}
+
+.picScroll-left .bd ul li{ 
+	margin-left:8px; 
+	float:left; 
+	_display:inline; 
+	overflow:hidden; 
+	text-align:center;  
+}
+
+.picScroll-left .bd ul li .pic{ 
+	text-align:center; 
+}
+
+.picScroll-left .bd ul li .pic img{ 
+	width:332px; 
+	height:176px; 
+	display:block; 
+	border:1px solid #ccc;  
+}
+		/*.picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }*/
+		/*.picScroll-left .bd ul li .title{ line-height:24px;   }*/
+
+.picScroll-left .bd ul li{ 
+	margin-left:8px; 
+	float:left; 
+	_display:inline; 
+	overflow:hidden; 
+	text-align:center;  
+}
+
+.picScroll-left .bd ul li .pic{ 
+	text-align:center; 
+}
+
+.picScroll-left .bd ul li .pic img{ 
+	width:332px; 
+	height:176px; 
+	display:block; 
+	border:1px solid #ccc; 
 }
 
 #midNews {

@@ -1,0 +1,206 @@
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		#midShow {
+			width: 100%;
+			height: 300px;
+			
+		}
+
+		#scroll {
+			width: 1100px;
+			height: 200px;
+			margin: 0 auto;
+			border: 1px solid black;
+			position: relative;
+		}
+
+		/*#scroll ul {
+			width: 900px;
+			height: 200px;
+			margin: 0 auto;
+			list-style:none;
+			border: 1px solid red;
+			position: relative;
+		}*/
+
+		#scroll ul li {
+			width:200px; 
+			height:200px; 
+			display:none;
+		}
+
+		#scroll .ul_1 {
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			list-style:none;
+			border: 1px solid red;
+			/*position: relative; */
+			position: absolute;
+			left: 100px;
+			/*border: 1px solid orange;*/
+		}
+
+		#scroll .ul_2 {
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			list-style:none;
+			border: 1px solid red;
+			position: absolute;
+			left: 350px;
+		}
+
+		#scroll .ul_3 {
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			list-style:none;
+			border: 1px solid red;
+			position: absolute;
+			left: 600px;
+		}
+
+		#scroll .ul_1 .show_1 {
+			display: block;
+			/*position: absolute;
+			left: 100px;*/
+			background: red;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_1 .show_2 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 100px;*/
+			background: grey;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_1 .show_3 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 100px;*/
+			background: orange;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_1 .show_4 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 100px;*/
+			background: green;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_2 .show_1 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 350px;*/
+			background: red;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_2 .show_2 {
+			display: block;
+			/*position: absolute;
+			left: 350px;*/
+			background: grey;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_2 .show_3 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 350px;*/
+			background: orange;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_2 .show_4 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 350px;*/
+			background: green;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_3 .show_1 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 600px;*/
+			background: red;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_3 .show_2 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 600px;*/
+			background: grey;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_3 .show_3 {
+			display: block;
+			/*position: absolute;
+			left: 600px;*/
+			background: orange;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+
+		#scroll .ul_3 .show_4 {
+			/*display: block;*/
+			/*position: absolute;
+			left: 600px;*/
+			background: green;
+			font-size: 20px;
+			line-height: 200px;
+			text-align: center;
+		}
+		#scroll .subl {
+			display: block;
+			width: 50px;
+			height: 200px;
+			background: black;
+			position: absolute;
+			left: 20px;
+			color: white;
+			line-height: 200px;
+		}
+
+		#scroll .subr {
+			display: block;
+			width: 50px;
+			height: 200px;
+			background: black;
+			position: absolute;
+			right: 20px;
+			color: white;
+			line-height: 200px;
+		}
